@@ -20,8 +20,8 @@
 		<string name="cache">Cache</string>
 		<string name="data">Data</string>
 		<string name="data_backup">Data（不包含存储）</string>
-		<string name="sdcard">SDCard</string>
-		<string name="internal">内置存储</string>
+		<string name="sdcard">SD Card</string>
+		<string name="internal">内部存储设备<</string>
 		<string name="microsd">SD 卡</string>
 		<string name="usbotg">外置 U 盘</string>
 		<string name="android_secure">Android Secure</string>
@@ -35,7 +35,7 @@
 		<!-- GUI XML strings -->
 		<string name="twrp_header">Team Win Recovery Project</string>
 		<string name="twrp_watch_header">TWRP %tw_version%</string>
-		<string name="cpu_temp">CPU温度: %tw_cpu_temp% &#xB0;C</string>
+		<string name="cpu_temp">CPU: %tw_cpu_temp% &#xB0;C</string>
 		<string name="battery_pct">电量: %tw_battery%</string>
 		<string name="sort_by_name">按名称排序</string>
 		<string name="sort_by_date">按日期排序</string>
@@ -138,7 +138,7 @@
 		<string name="factory_reset_hdr">恢复出厂设置（双清）</string>
 		<string name="factory_reset_btn">恢复出厂</string>
 		<string name="factory_reset1">这将会清空 Data、Cache 分区和 Dalvik 缓存</string>
-		<string name="factory_reset2">（不会清除内置存储/sdcard）</string>
+		<string name="factory_reset2">（不会清除内置存储 /sdcard）</string>
 		<string name="factory_reset3">在大多数情况下，您只需要</string>
 		<string name="factory_reset4">执行此操作即可。</string>
 		<string name="factory_reset5">（不包括用户/锁屏）</string>
@@ -466,7 +466,7 @@
 		<string name="swipe_to_sideload">滑动滑块开始 Sideload</string>
 		<string name="swipe_sideload">   开始</string>
 		<string name="sideload_confirm">ADB Sideload</string>
-		<string name="sideload_usage">使用方式：adb sideload filename.zip</string>
+		<string name="sideload_usage">使用方式：adb sideload 文件名</string>
 		<string name="sideload_complete">ADB Sideload 完成</string>
 		<string name="fix_contexts_hdr">修复 Context</string>
 		<string name="fix_contexts_note1">注意：很少情况下需要修复 Context。</string>
@@ -496,7 +496,7 @@
 		<string name="unpacking_image">正在解包 {1}…</string>
 		<string name="repacking_image">正在打包 {1}…</string>
 		<string name="repack_image_hdr">选择镜像</string>
-		<string name="repack_overwrite_warning">如果设备之前有root权限，现在可能被覆盖，请重新获取root权限。</string>
+		<string name="repack_overwrite_warning">如果设备之前有 Root 权限，现在可能被覆盖，请重新获取 Root 权限。</string>
 		<string name="reflash_twrp">刷入当前的 TWRP</string>
 		<string name="reflash_twrp_confirm">是否刷入当前的 TWRP？</string>
 		<string name="reflashing_twrp">正在刷入 TWRP...</string>
@@ -610,7 +610,7 @@
 		<string name="repair_not_exist">{1} 不存在！无法修复！</string>
 		<string name="repairing_using">正在使用 {2} 修复 {1}…</string>
 		<string name="unable_repair">无法修复 {1}。</string>
-		<string name="mount_data_footer">无法挂载/data，未找到加密 footer。</string>
+		<string name="mount_data_footer">无法挂载 /data，未找到加密 footer。</string>
 		<!-- {1} is the folder name that we could not create, {2} is strerror output -->
 		<string name="create_folder_strerr">无法创建“{1}”文件夹 ({2})。</string>
 		<!-- {1} is the folder name that we could not mount, {2} is strerror output -->
@@ -624,18 +624,18 @@
 		<string name="digest_fail_match" version="2">“{1}” Digest 校验失败。</string>
 		<string name="digest_matched" version="2">Digest 匹配“{1}”。</string>
 		<string name="fail_decrypt_tar">无法解密 Tar 文件“{1}”</string>
-		<string name="format_data_msg">您可能需要重启 Recovery 才能使用/data。</string>
+		<string name="format_data_msg">您可能需要重启 Recovery 才能使用 /data。</string>
 		<string name="format_data_err">无法格式化并删除加密。</string>
 		<string name="formatting_using">使用 {2} 格式化 {1}…</string>
 		<string name="unable_to_wipe">无法清除 {1}。</string>
 		<string name="cannot_wipe">无法清除 {1} 分区。</string>
 		<string name="remove_all">移除“{1}”下的所有文件</string>
-		<string name="wiping_data">正在清除 Data 分区，跳过清除/data/media…</string>
+		<string name="wiping_data">正在清除 Data 分区，跳过清除 /data/media…</string>
 		<string name="backing_up">正在备份 {1}…</string>
 		<string name="backup_storage_warning">备份的 {1} 分区不包含内置存储上的任何文件，例如照片或下载的文件等等。</string>
 		<string name="backing">正在备份</string>
 		<string name="backup_size">“{1}”的备份文件大小为 0 字节。</string>
-		<string name="datamedia_fs_restore">警告：此/data 备份文件系统为 {1}! 除非把文件系统格式设置为 {1} 否则可能无法启动。</string>
+		<string name="datamedia_fs_restore">警告：此 /data 备份文件系统为 {1}! 除非把文件系统格式设置为 {1} 否则可能无法启动。</string>
 		<string name="restoring">正在恢复 {1}…</string>
 		<string name="restoring_hdr">正在恢复</string>
 		<string name="recreate_folder_err">无法重新创建 {1} 文件夹。</string>
@@ -656,7 +656,7 @@
 		<string name="making_dir2">创建目录:“{1}”</string>
 		<string name="running_command">运行命令</string>
 		<string name="sideload">ADB Sideload</string>
-		<string name="start_sideload">正在开始 ADB sideload…</string>
+		<string name="start_sideload">正在开始 ADB Sideload…</string>
 		<string name="need_new_adb">您需要 1.0.32 或更高版本的 adb 才可以使用。</string>
 		<string name="no_pwd">未提供密码。</string>
 		<string name="done_ors">脚本执行完毕</string>
@@ -731,14 +731,15 @@
 		<string name="unmount_system">正在解除挂载 System…</string>
 		<string name="unmount_system_err">解除挂载 System 失败</string>
 		<string name="flash_ab_inactive">正在刷入 A/B Zip 刷机包至非活动槽位: {1}</string>
-		<string name="flash_ab_reboot">请重启 TWRP 切换到新槽位后，再刷入其它的 ZIP。</string>
+		<string name="flash_ab_reboot">请重启 TWRP 切换到新槽位后，再刷入其它的 Zip。</string>
 		<string name="flash_ab_both_slots">刷入到2个槽位</string>
-		<string name="ozip_decrypt_decryption">正在解密 Ozip…</string>
-		<string name="ozip_decrypt_finish">Ozip 解密完成！</string>
+		<string name="ozip_decrypt_decryption">正在解密 OZip…</string>
+		<string name="ozip_decrypt_finish">OZip 解密完成！</string>
 		<string name="fastboot_button">Fastboot</string>
 		<string name="enable_adb">启用 ADB</string>
 		<string name="enable_fastboot">启用 Fastboot</string>
 		<string name="fastboot_console_msg">进入 Fastboot 模式…</string>
+		<string name="data_media_fbe_msg">TWRP 不会在 FBE 设备上重新创建 /data/media，请重新启动到您的 ROM 来创建 /data/media！</string>
 		<!-- Android Rescue Party trigger -->
 		<string name="rescue_party0">Android 救援程序已触发！您可以尝试下面的操作：</string>
 		<string name="rescue_party1"> 1. 清除 Cache；</string>
@@ -748,7 +749,7 @@
 		<string name="restore_system_context">无法获取 {1} 的默认 context -- Android 可能无法启动。</string>
 		<string name="change_twrp_folder_btn">更改 TWRP 文件夹</string>
 		<string name="change_twrp_folder_on_process">正在更改 TWRP 文件夹</string>
-		<string name="change_twrp_folder_after_process">TWRP文件夹已改为</string>
+		<string name="change_twrp_folder_after_process">TWRP 文件夹已改为</string>
 		<string name="tw_folder_exists">已存在同名文件夹！</string>
 		<string name="unmap_super_devices">取消 Super Devices 映射</string>
 		<string name="unmap_super_devices_confirm">是否取消所有 Super Devices 映射？</string>
@@ -759,14 +760,14 @@
 		<string name="merging_snapshots">正在合并快照...</string>
 		<string name="merging_snapshots_complete">合并快照完成！</string>
 		<string name="mount_vab_partitions">在重新启动 TWRP 之前，Super Devices 上的分区可能不会挂载。</string>
-		<string name="restore_pin_password">是否在 PIN码/混合密码 启用时进行恢复？</string>
+		<string name="restore_pin_password">是否在 PIN 码/混合密码 启用时进行恢复？</string>
 		<string name="restore_pattern">是否在 图案密码 启用时恢复？</string>
-		<string name="restore_pin">是否在 PIN码 启用时恢复？</string>
+		<string name="restore_pin">是否在 PIN 码 启用时恢复？</string>
 		<string name="continue_restore_encrypted">是否继续恢复？</string>
-		<string name="restore_with_pin_password1">ROM中的 PIN码/混合密码 已启用</string>
-		<string name="restore_with_pin_password2">恢复前应该在 ROM 中禁用 PIN码/混合密码</string>
-		<string name="restore_with_pin1">ROM中的 PIN码 已启用</string>
-		<string name="restore_with_pin2">恢复前应该在 ROM 中禁用 PIN码</string>
+		<string name="restore_with_pin_password1">ROM 中的 PIN 码/混合密码 已启用</string>
+		<string name="restore_with_pin_password2">恢复前应该在 ROM 中禁用 PIN 码/混合密码</string>
+		<string name="restore_with_pin1">ROM中的 PIN 码 已启用</string>
+		<string name="restore_with_pin2">恢复前应该在 ROM 中禁用 PIN 码</string>
 		<string name="restore_with_pattern1">ROM 中的 图案密码 已启用</string>
 		<string name="restore_with_pattern2">恢复前应该在 ROM 中禁用 图案密码</string>
 		<string name="reboot_after_restore">建议在 Android 首次启动后再重启一次。</string>
