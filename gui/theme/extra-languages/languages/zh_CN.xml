@@ -21,7 +21,7 @@
 		<string name="data">Data</string>
 		<string name="data_backup">Data（不包含存储）</string>
 		<string name="sdcard">SD Card</string>
-		<string name="internal">内部存储设备<</string>
+		<string name="internal">内部存储设备</string>
 		<string name="microsd">SD 卡</string>
 		<string name="usbotg">外置 U 盘</string>
 		<string name="android_secure">Android Secure</string>
